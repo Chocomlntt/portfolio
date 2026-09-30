@@ -43,7 +43,8 @@
         <li><a href="#about" class="nav-link">About & Education</a></li>
         <li><a href="#skills" class="nav-link">Skills</a></li>
         <li><a href="#projects" class="nav-link">Projects</a></li>
-        <li><a href="#activities" class="nav-link">Activities</a></li>
+        <li><a href="#workflow" class="nav-link">Workflow</a></li>
+        <li><a href="#github-stats" class="nav-link">GitHub Stats</a></li>
         <li><a href="#contact" class="nav-link">Contact</a></li>
       </ul>
 
@@ -344,37 +345,124 @@
               </div>
             </div>
           </div>
+
+          <!-- Project 3: Interactive Kiosk Application -->
+          <div class="glass-card project-card" data-category="webapp">
+            <div class="project-img-wrapper">
+              <img src="Naruekot%20Pundaung/My%20project/Kiosk/kiosk_preview.jpg" alt="Interactive Kiosk Application Preview" class="project-img">
+              <span class="project-badge-status status-complete">Completed 🟢</span>
+            </div>
+            
+            <div class="project-body">
+              <div class="project-title-row">
+                <i class="bi bi-display-fill" style="font-size: 1.5rem; color: #38bdf8;"></i>
+                <h3 class="project-title">Interactive Kiosk App</h3>
+              </div>
+
+              <p class="project-desc">
+                ระบบเว็บแอปพลิเคชันตู้คีออสอินเทอร์แอคทีฟ ให้บริการข้อมูลข่าวสาร แผนที่ และบริการหลักขององค์กรผ่านหน้าจอสัมผัส
+              </p>
+
+              <div class="project-tags">
+                <span class="project-tag">Touchscreen UI</span>
+                <span class="project-tag">Interactive Map</span>
+                <span class="project-tag">Web Kiosk</span>
+              </div>
+
+              <div class="project-actions">
+                <button class="btn btn-primary" onclick="openProjectModal('kiosk')">
+                  <i class="bi bi-eye"></i> ดูรายละเอียด
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- Activities & Self-Development Section -->
-    <section class="section" id="activities">
+
+    <!-- Development Workflow Section -->
+    <section class="section" id="workflow">
       <div class="container">
         <div class="section-header">
-          <span class="section-tag">Continuous Growth</span>
-          <h2 class="section-title">Self-Development & Activities</h2>
-          <p class="section-desc">การเข้าร่วมกิจกรรม เวิร์กช็อป และการพัฒนาตนเองอย่างต่อเนื่อง</p>
+          <span class="section-tag">End-to-End Delivery</span>
+          <h2 class="section-title">Development Workflow & Process</h2>
+          <p class="section-desc">กระบวนการทำงานและการพัฒนาซอฟต์แวร์อย่างเป็นระบบ ตั้งแต่การวิเคราะห์โจทย์จนถึงการส่งมอบระบบ</p>
         </div>
 
-        <div class="activities-grid">
-          <!-- Activity 1: Zygen Seminar -->
-          <div class="glass-card activity-card">
-            <div class="activity-img-wrapper">
-              <img src="Naruekot%20Pundaung/Self-Development/DII%20CAMT%20x%20Zygen/667831604_1382762997223246_7620456792330041729_n.jpg" alt="DII CAMT x Zygen Data Management Seminar" class="activity-img">
+        <div class="workflow-grid">
+          <div class="glass-card workflow-card">
+            <div class="workflow-step-num">01</div>
+            <div class="workflow-icon"><i class="bi bi-search"></i></div>
+            <h3 class="workflow-title">Requirement & Data Discovery</h3>
+            <p class="workflow-desc">วิเคราะห์ความต้องการของธุรกิจ วางแผนโครงสร้างข้อมูล (Data Architecture) และกำหนดขอบเขตระบบร่วมกับผู้ใช้งาน</p>
+          </div>
+
+          <div class="glass-card workflow-card">
+            <div class="workflow-step-num">02</div>
+            <div class="workflow-icon" style="color: #a855f7; background: rgba(168, 85, 247, 0.15); border-color: rgba(168, 85, 247, 0.3);"><i class="bi bi-palette"></i></div>
+            <h3 class="workflow-title">UI/UX Prototyping</h3>
+            <p class="workflow-desc">ออกแบบ Wireframe และ User Interface เน้นความเรียบง่าย ใช้งานสะดวก และรองรับทุกขนาดหน้าจอ (Responsive)</p>
+          </div>
+
+          <div class="glass-card workflow-card">
+            <div class="workflow-step-num">03</div>
+            <div class="workflow-icon" style="color: #34d399; background: rgba(16, 185, 129, 0.15); border-color: rgba(16, 185, 129, 0.3);"><i class="bi bi-code-slash"></i></div>
+            <h3 class="workflow-title">Agile Coding & Integration</h3>
+            <p class="workflow-desc">พัฒนาเว็บและแดชบอร์ดด้วย Modern Tech Stack (HTML/CSS/JS/React) เขียนโค้ดที่สะอาด และเชื่อมต่อ API ได้อย่างปลอดภัย</p>
+          </div>
+
+          <div class="glass-card workflow-card">
+            <div class="workflow-step-num">04</div>
+            <div class="workflow-icon" style="color: #f43f5e; background: rgba(244, 63, 94, 0.15); border-color: rgba(244, 63, 94, 0.3);"><i class="bi bi-rocket-takeoff"></i></div>
+            <h3 class="workflow-title">Deployment & Optimization</h3>
+            <p class="workflow-desc">ทดสอบความถูกต้อง ตรวจวัดประสิทธิภาพ นำระบบขึ้น Cloud/Vercel และติดตามผลตอบรับเพื่อพัฒนาต่อยอดต่อเนื่อง</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GitHub Activity & Tech Metrics Section -->
+    <section class="section" id="github-stats">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Open Source & Metrics</span>
+          <h2 class="section-title">GitHub Activity & Stats</h2>
+          <p class="section-desc">สถิติผลงานการพัฒนา กิจกรรมการเขียนโค้ด และการสมทบโอเพนซอร์สบน GitHub</p>
+        </div>
+
+        <div class="github-grid">
+          <div class="glass-card github-main-card">
+            <div class="github-header-row">
+              <div class="github-profile-info">
+                <i class="bi bi-github github-big-icon"></i>
+                <div>
+                  <h3 class="github-username">Naruekot Pundaung <span class="github-handle">@Chocomlntt</span></h3>
+                  <p class="github-bio">Digital Industry Integration Student & Web Developer | Chiang Mai University</p>
+                </div>
+              </div>
+              <a href="https://github.com/Chocomlntt" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                <i class="bi bi-box-arrow-up-right"></i> เยี่ยมชม GitHub Profile
+              </a>
             </div>
-            
-            <div class="activity-body">
-              <span class="activity-tag"><i class="bi bi-award"></i> Workshop & Seminar</span>
-              <h3 class="activity-title">DII CAMT x Zygen: Data Management</h3>
-              <p class="activity-desc">
-                เข้าร่วมงานสัมมนาและเวิร์กช็อปเชิงปฏิบัติการด้าน Data Management และ Enterprise Solutions ร่วมกับ Zygen เพื่อเรียนรู้มาตรฐานการจัดการข้อมูลในอุตสาหกรรมยุคใหม่
-              </p>
-              
-              <div style="margin-top: 0.5rem;">
-                <button class="btn btn-glass" style="font-size: 0.88rem; padding: 0.5rem 1rem;" onclick="openProjectModal('zygen-seminar')">
-                  <i class="bi bi-info-circle"></i> ดูสรุปกิจกรรม
-                </button>
+
+            <div class="github-stats-container">
+              <div class="github-stat-box">
+                <div class="github-stat-num"><i class="bi bi-journal-code"></i> Public Repositories</div>
+                <div class="github-stat-val">Active Projects</div>
+                <div class="github-stat-sub">Web Apps, Dashboards & Data Projects</div>
+              </div>
+
+              <div class="github-stat-box">
+                <div class="github-stat-num" style="color: #38bdf8;"><i class="bi bi-lightning-charge-fill"></i> Primary Tech Stack</div>
+                <div class="github-stat-val">JavaScript / HTML / CSS / Python</div>
+                <div class="github-stat-sub">Frontend, Dashboard & Data Processing</div>
+              </div>
+
+              <div class="github-stat-box">
+                <div class="github-stat-num" style="color: #a855f7;"><i class="bi bi-check-circle-fill"></i> Code Quality & Standard</div>
+                <div class="github-stat-val">Clean & Glassmorphic UI</div>
+                <div class="github-stat-sub">Responsive, Accessibility & Modern Design</div>
               </div>
             </div>
           </div>

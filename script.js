@@ -107,17 +107,17 @@ document.addEventListener('DOMContentLoaded', () => {
       ]
     },
     'kiosk': {
-      title: 'Kiosk Application',
-      category: 'Information Kiosk',
-      status: 'Completed 🟢',
+      title: 'Interactive Kiosk Application',
+      category: 'Information Kiosk & Interactive UI',
+      status: 'In Progress 🟡',
       url: '#',
-      image: 'Naruekot%20Pundaung/My%20project/Kiosk/Untitled.png',
-      description: 'เว็บพอร์ทัลเพื่อการศึกษาและระบบบริหารจัดการข้อมูลสำหรับสถานศึกษา รองรับการเผยแพร่ข่าวสาร ประชาสัมพันธ์ข้อมูลหลักสูตร และโครงสร้างข้อมูลที่เป็นประโยชน์สำหรับนักเรียนและบุคลากร',
-      tech: ['HTML5 / CSS3', 'JavaScript', 'Information Architecture', 'Responsive Web Design'],
+      image: 'Naruekot%20Pundaung/My%20project/Kiosk/kiosk_preview.jpg',
+      description: 'ระบบเว็บแอปพลิเคชันตู้คีออสอินเทอร์แอคทีฟ (Interactive Touchscreen Kiosk) ออกแบบสำหรับการให้บริการข้อมูลข่าวสาร แผนที่ และบริการหลักขององค์กรและสถานศึกษา ด้วยหน้าจอสัมผัสที่ใช้งานง่าย ตอบสนองรวดเร็ว',
+      tech: ['HTML5 / CSS3', 'JavaScript (ES6+)', 'Touchscreen UI/UX', 'Interactive Map', 'Responsive Layout'],
       highlights: [
-        'หน้าแรกและเมนูโครงสร้างข้อมูลโรงเรียนที่เข้าใจง่าย',
-        'การจัดหมวดหมู่ข่าวสารและกิจกรรมของสถาบัน',
-        'รองรับการแสดงผลบนอุปกรณ์ทุกขนาด (Mobile & Desktop)'
+        'หน้าจอ User Interface สไตล์ Modern Glassmorphism รองรับการสัมผัส Touchscreen',
+        'ระบบแสดงแผนที่และการค้นหาตำแหน่งบริการสำคัญ (Interactive Campus & Service Directory)',
+        'โครงสร้างข้อมูลข่าวสาร ประกาศ และตารางกิจกรรมแบบอัปเดตคล่องตัว'
       ]
     },
     'zygen-seminar': {
